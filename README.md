@@ -1,6 +1,7 @@
 # SendNUIMessage
 
 Como o aplicativo será um iframe, não será possível utilizar o SendNUIMessage
+
 Para resolver este problema, você terá que aplicar uma técnica chamada [Long Polling](https://pt.stackoverflow.com/questions/254506/o-que-%C3%A9-long-polling)
 
 ```js
